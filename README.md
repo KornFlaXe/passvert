@@ -1,2 +1,2 @@
 # Decovid
-Décodeur de Pass Sanitaire Européen (Qr Code)
+Décodeur de Pass Sanitaire Européen programmé en Python.
