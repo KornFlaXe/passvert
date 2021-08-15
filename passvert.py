@@ -1,4 +1,3 @@
-from re import search
 import sys
 import json
 import zlib
