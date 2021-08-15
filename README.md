@@ -1,7 +1,7 @@
 # Decovid
 Décodeur de Pass Sanitaire Européen programmé en Python.
 
-Le programme décode le QR Code du Pass Sanitaire (avec une image du QR Code) et affiche les informations contenues dedans.
+Le programme décode le QR Code du Pass Sanitaire (avec une image du QR Code) et affiche les informations contenues dedans.\
 Le décodage se fait en plusieurs étapes :
 - Décodage en Base45
 - Décompression Zlib
@@ -11,7 +11,7 @@ Le décodage se fait en plusieurs étapes :
 
 ## Installation
 
-Créer un dossier contenant le script et une image d'un QR Code (de préférence au format png).
+Créer un dossier contenant le script et une image d'un QR Code (de préférence au format png).\
 Installer les paquets nécessaires à l'execution du script :
 
 ```bash
