@@ -8,3 +8,12 @@ Le décodage se fait en plusieurs étapes :
 - Décodage COSE
 - Décodage du message encodé en CBOR
 - Affichage du json avec indentation
+
+## Execution
+
+Mettre l'image du QR code dans le même dossier que le script.
+Ouvrir un terminal et executer la commande suivante :
+
+```bash
+passvert.py "image_qrcode.png"
+```
