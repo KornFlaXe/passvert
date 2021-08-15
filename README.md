@@ -9,9 +9,17 @@ Le décodage se fait en plusieurs étapes :
 - Décodage du message encodé en CBOR
 - Affichage du json avec indentation
 
+## Installation
+
+Créer un dossier contenant le script et une image d'un QR Code (de préférence au format png)
+Installer les paquets nécessaires à l'execution du script :
+
+```bash
+pip install base45 cbor2 cose pillow pizbar tableprint
+```
+
 ## Execution
 
-Mettre l'image du QR code dans le même dossier que le script.
 Ouvrir un terminal et executer la commande suivante :
 
 ```bash
