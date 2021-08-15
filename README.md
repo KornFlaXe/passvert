@@ -11,7 +11,7 @@ Le décodage se fait en plusieurs étapes :
 
 ## Installation
 
-Créer un dossier contenant le script et une image d'un QR Code (de préférence au format png)
+Créer un dossier contenant le script et une image d'un QR Code (de préférence au format png).
 Installer les paquets nécessaires à l'execution du script :
 
 ```bash
