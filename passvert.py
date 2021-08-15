@@ -19,7 +19,7 @@ qr_json = json.dumps(qr_cbor, indent=3)
 qr_utf8 = qr_data.decode('utf8')
 
 print()
-tableprint.banner("     Décodeur Certificat COVID Numérique UE ✧ Version 1.0     ")
+tableprint.banner("     Décodeur Certificat COVID Numérique UE ✧ Version 0.1a     ")
 print('\n✧ Données en BASE45 du Qr Code :\n')
 print(qr_utf8)
 print('\n✧ Données en ZLIB du Qr Code :\n')
