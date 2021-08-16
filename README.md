@@ -9,7 +9,7 @@ Le décodage se fait en plusieurs étapes :
 - Décompression Zlib
 - Décodage COSE
 - Décodage du message encodé en CBOR
-- Affichage du json avec indentation!
+- Affichage du json avec indentation
 
 ## Installation
 
