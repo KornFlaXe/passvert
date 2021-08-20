@@ -2,7 +2,7 @@
 Décodeur de Pass Sanitaire Européen programmé en Python.
 
 ![script](https://user-images.githubusercontent.com/88982293/129491150-381fe7e2-1843-4194-aee3-9ff81d339c79.png)
-Exemple de décodage sur un qr code factice
+*Exemple de décodage sur un qr code factice*
 
 Le programme décode le QR Code du Pass Sanitaire (avec une image du QR Code) et affiche les informations contenues dedans.\
 Le décodage se fait en plusieurs étapes :
