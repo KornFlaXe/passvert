@@ -1,9 +1,6 @@
 # PassVert
 Décodeur de Pass Sanitaire Européen programmé en Python.
 
-*Exemple de décodage sur un qr code factice :*
-![script](https://user-images.githubusercontent.com/88982293/129491150-381fe7e2-1843-4194-aee3-9ff81d339c79.png)
-
 Le programme décode le QR Code du Pass Sanitaire (avec une image du QR Code) et affiche les informations contenues dedans.\
 Le décodage se fait en plusieurs étapes :
 - Décodage en Base45
@@ -11,6 +8,16 @@ Le décodage se fait en plusieurs étapes :
 - Décodage COSE
 - Décodage du message encodé en CBOR
 - Affichage du json avec indentation
+
+## Images
+
+Quelques images du script en fonctionnement avec la possibilité de choisir un dump complet ou directement un dump du json.
+
+<table>
+    <tr>
+    <td><img src="https://raw.githubusercontent.com/KornFlaXe/passvert/master/img/smalldump.png" width="500" />
+    <td><img src="https://raw.githubusercontent.com/KornFlaXe/passvert/master/img/fulldump.png" width="500" />
+</table>
 
 ## Installation
 
