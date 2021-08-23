@@ -1,4 +1,4 @@
-# Decovid
+# PassVert
 Décodeur de Pass Sanitaire Européen programmé en Python.
 
 *Exemple de décodage sur un qr code factice :*
