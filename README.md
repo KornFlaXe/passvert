@@ -1,5 +1,5 @@
 # PassVert
-Décodeur de Pass Sanitaire Européen programmé en Python.
+Décodeur de Pass(e) Sanitaire Européen programmé en Python.
 
 Le programme décode le QR Code du Pass Sanitaire (avec une image du QR Code) et affiche les informations contenues dedans.\
 Le décodage se fait en plusieurs étapes :
