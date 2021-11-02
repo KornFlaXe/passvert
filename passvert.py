@@ -21,9 +21,9 @@ qr_dump = json.dumps(qr_json, indent=3)
 print()
 tableprint.banner("     Décodeur Certificat COVID Numérique UE ✧ Version 0.2a     ")
 
-cdump = input('\n✧ Voulez-vous un dump complet du certificat ? ')
+cdump = input('\n✧ Voulez-vous un dump complet du certificat ? [Y/n] ')
 
-if "oui".startswith(cdump.lower()):
+if cdump.lower() == "Y".lower():
     print('\n✧ Données Certificat :\n')
     print(qr_cert)
     print('\n✧ Données en BASE45 :\n')
