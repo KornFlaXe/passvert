@@ -21,17 +21,26 @@ Quelques images du script en fonctionnement avec la possibilité de choisir un d
 
 ## Installation
 
-Créer un dossier contenant le script et une image d'un QR Code (de préférence au format png).\
-Installer les paquets nécessaires à l'execution du script :
+Pour procéder à l'installation, le logiciel **git** doit être présent sur votre machine et également **Python** avec son gestionnaire de bibliothèque **pip**.
 
-```python
-pip install base45 cbor2 cose pillow pizbar tableprint
+Pour le commencement, clonez le projet à partir de cet ligne de commande : 
+```bash
+git clone https://github.com/L1444/passvert
+```
+Par la suite, rendez vous sur le dossier *passvert* : 
+```bash
+cd passvert/
+```
+Et installez, toutes les dépendances grâce à cet ligne de commande.
+```bash
+pip install -r requirements.txt
 ```
 
-## Execution
+## L'utilisation
 
-Ouvrir un terminal et executer la commande suivante :
+Afin d'utiliser le script, vous devez mettre python au début afin d'éxecuter l'intérpreteur Python *(en guise de programme à démarrer)*, ensuite le nom du script qui sera dans tous les cas **passvert.py** et par la suite le chemin du QRCode.
 
-```python
-passvert.py "image_qrcode.png"
+Le QRCode est à la racine du script donc cet ligne de commande suffit : 
+```bash
+python passvert.py "nomduqrcode.png"
 ```
